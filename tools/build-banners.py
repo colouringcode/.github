@@ -78,8 +78,17 @@ SANS = "'Space Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
 
 def dark_rose():
-    return (rose.replace('fill="#141414"', 'fill="#F6F1E7"')
-                 .replace('stroke="#F6F1E7"', 'stroke="#141414"'))
+    """The site's on-dark rose: cream spikes, ink centre, cream slash.
+
+    Only the five spikes change; the centre and the slash are already right.
+    """
+    chunks = rose.split('fill="#141414"')
+    out = []
+    for i, chunk in enumerate(chunks[:-1]):
+        out.append(chunk)
+        out.append('fill="#F6F1E7"' if i < 5 else 'fill="#141414"')
+    out.append(chunks[-1])
+    return ''.join(out)
 
 
 def path(d, fill):
