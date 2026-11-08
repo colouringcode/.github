@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" width="720" height="450" role="img" aria-label="Web, apps, branding, marketing and consulting">
+  <rect width="720" height="450" fill="#F6F1E7"/>
+
+  <g font-family="'Space Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3" fill="#141414">
+    <rect x="40" y="34" width="56" height="5" fill="#FF5B14"/>
+    <text x="40" y="78">WEB</text>
+
+    <rect x="40" y="118" width="56" height="5" fill="#FFB000"/>
+    <text x="40" y="162">APPS</text>
+
+    <rect x="40" y="202" width="56" height="5" fill="#12A39A"/>
+    <text x="40" y="246">BRANDING</text>
+
+    <rect x="40" y="286" width="56" height="5" fill="#2747C9"/>
+    <text x="40" y="330">MARKETING</text>
+
+    <rect x="40" y="370" width="56" height="5" fill="#E5267A"/>
+    <text x="40" y="414">CONSULTING</text>
+  </g>
+</svg>

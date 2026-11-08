@@ -1,7 +1,11 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/banner-dark.svg">
-  <img src="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/banner-light.svg" alt="Colouring Code — a digital studio in Yorkshire. We make websites, apps and brands that work." width="100%">
-</picture>
+<a href="https://www.colouringcode.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/banner-mobile-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/banner-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/banner-mobile-light.svg">
+    <img src="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/banner-light.svg" alt="Colouring Code — straight talking, full colour. A digital studio in Yorkshire making websites, apps and brands that work." width="100%">
+  </picture>
+</a>
 
 <p align="center">
   Planned, built and looked after by the same pair of hands since 2010 —<br>
@@ -30,7 +34,9 @@ A stale site, a launch coming up, or a job that keeps eating your time. If you n
 
 <a href="https://www.colouringcode.com/services">
   <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/disciplines-stack-dark.svg">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/disciplines-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/disciplines-stack-light.svg">
     <img src="https://raw.githubusercontent.com/colouringcode/.github/main/profile/assets/disciplines-light.svg" alt="Web, apps, branding, marketing and consulting" width="100%">
   </picture>
 </a>
